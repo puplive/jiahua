@@ -1,0 +1,50 @@
+@font-face {
+    font-family: 'Butler_ExtraBold';
+    src: url('../fonts/Butler/Butler/Butler_ExtraBold.otf');
+}
+@font-face {
+    font-family: 'Butler-Bold';
+    src: url('../fonts/Butler/Butler/Butler_Bold.otf');
+}
+@font-face {
+    font-family: 'Roboto-Light';
+    src: url('../fonts/roboto/Roboto-Light.ttf');
+}
+
+
+@font-face {
+    font-family: 'Roboto-Medium';
+    src: url('../fonts/roboto/Roboto-Medium.ttf');
+}
+
+@font-face {
+    font-family: 'Roboto-Regular';
+    src: url('../fonts/roboto/Roboto-Regular.ttf');
+}
+@font-face {
+    font-family: 'Roboto-LightItalic';
+    src: url('../fonts/roboto/Roboto-LightItalic.ttf');
+}
+
+
+
+
+
+/*.font_1{
+    font-family: Butler_ExtraBold,-apple-system,BlinkMacSystemFont,Helvetica,Arial,sans-serif
+}
+.font_2{
+    font-family: Roboto-Light,-apple-system,BlinkMacSystemFont,Helvetica,Arial,sans-serif
+}
+.font_3{
+    font-family: Roboto-Medium,-apple-system,BlinkMacSystemFont,Helvetica,Arial,sans-serif
+}
+.font_4{
+    font-family: Roboto-Regular,-apple-system,BlinkMacSystemFont,Helvetica,Arial,sans-serif
+}
+.font_5{
+    font-family: Roboto-LightItalic,-apple-system,BlinkMacSystemFont,Helvetica,Arial,sans-serif
+}
+.font_6{
+    font-family: Butler-Bold,-apple-system,BlinkMacSystemFont,Helvetica,Arial,sans-serif
+}*/
