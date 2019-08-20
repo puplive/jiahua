@@ -1,10 +1,13 @@
-
+html,body{
+    height: 100%;
+    margin: auto;
+}
 
 .main {
-    background: #f8f8f8;
     position: relative;
     overflow: hidden;
-    padding-bottom: 60px;
+    padding-bottom: 288px;
+    min-height: 100%;
 }
 
 /*header*/
@@ -25,7 +28,7 @@
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
-    max-width: 1500px;
+    width: 1200px;
     margin: 0 auto;
 }
 
@@ -42,26 +45,13 @@
 .footer {
     padding-top: 90px;
     padding-bottom: 50px;
-    background: url(../img/footer_bg.png) no-repeat center;
+    background: #F0F5F4;
     -moz-background-size: cover;
          background-size: cover;
 }
 
-.footer_nav {
-    text-align: center;
-    margin-bottom: 80px;
-}
 
-.footer_nav>a {
-    display: inline-block;
-    height: 30px;
-    color: #fff;
-    border-bottom: 1px solid #fff;
-    font-size: 13px;
-    margin-left: 80px;
-    margin-right: 80px;
-    font-family: Roboto-Regular,-apple-system,BlinkMacSystemFont,Helvetica,Arial,sans-serif
-}
+
 
 /*分页*/
 .paging {
