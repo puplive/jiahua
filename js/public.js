@@ -3,57 +3,76 @@ $(function() {
     // 导航
     $('#nav_tab_btn').on('click', function() {
         $('#header').toggleClass('toggle');
+        if($('#header').hasClass('toggle')){
+            $('body').css('overflow', 'hidden');
+        }else{
+            $('body').css('overflow', 'auto');
+        }
     });
 
     $('#nav_box').on('click', function() {
         $('#header').removeClass('toggle');
+        if($('#header').hasClass('toggle')){
+            $('body').css('overflow', 'hidden');
+
+        }else{
+            $('body').css('overflow', 'auto');
+        }
+    });
+
+    // 导航 遮罩
+    $('#nav_box>.nav>li').hover(function() {
+        $('.s-popup').addClass('show');
+        $('#header.j-header_2').removeClass('header-2')
+    }, function() {
+        $('.s-popup').removeClass('show')
+        $('#header.j-header_2').addClass('header-2')
     });
 
     // 下拉 框
-    $('.c_select_btn').on('click', function(event) {
-        $(this).parent('.c_select').toggleClass('on');
+    $('#lan_btn').on('click', function(event) {
+        $(this).parent('.language').toggleClass('on');
     });
-    $('.c_select_list').on('click', '.c_select_item', function(event) {
+    $('.lan_list').on('click', 'li', function(event) {
         var $this = $(this);
-        // $this.addClass('active').siblings('.c_select_item').removeClass('active')
-        $this.parent('.c_select_list').prev('.c_select_btn').text($this.text()).parent('.c_select').removeClass('on');
+        $this.parent('ul').prev('#lan_btn').text($this.text()).parent('.language').removeClass('on');
     });
-    $(".c_select").blur(function(event) {
+    $(".language").blur(function(event) {
         /* Act on the event */
         $(this).removeClass('on');
     });
 
 
-    // 回到顶部
-    $("#go_top").click(function() {
-        var speed = 200; //滑动的速度
-        $('body,html').animate({ scrollTop: 0 }, speed);
-        return false;
-    });
+    // // 回到顶部
+    // $("#go_top").click(function() {
+    //     var speed = 200; //滑动的速度
+    //     $('body,html').animate({ scrollTop: 0 }, speed);
+    //     return false;
+    // });
 
-    $(window).scroll(function(event) {
+    // $(window).scroll(function(event) {
 
-        if ($(window).scrollTop() > 500) {
-            $('#go_top_box').show();
-        } else {
-            $('#go_top_box').hide();
-        }
-    });
+    //     if ($(window).scrollTop() > 500) {
+    //         $('#go_top_box').show();
+    //     } else {
+    //         $('#go_top_box').hide();
+    //     }
+    // });
 
-    // 语言 切换
-    $('.language').on('click', 'div', function(event) {
-        /* Act on the event */
-        $(this).addClass('active').siblings('div').removeClass('active');
-        $('.language>div').removeClass('hover');
-    });
-    $('.language>div').hover(function() {
-        if (!$(this).hasClass('active')) {
-            $(this).addClass('hover').siblings('div').addClass('hover');
-        }
-    }, function() {
-        $('.language>div').removeClass('hover')
-        /* Stuff to do when the mouse leaves the element */
-    });
+    // // 语言 切换
+    // $('.language').on('click', 'div', function(event) {
+    //     /* Act on the event */
+    //     $(this).addClass('active').siblings('div').removeClass('active');
+    //     $('.language>div').removeClass('hover');
+    // });
+    // $('.language>div').hover(function() {
+    //     if (!$(this).hasClass('active')) {
+    //         $(this).addClass('hover').siblings('div').addClass('hover');
+    //     }
+    // }, function() {
+    //     $('.language>div').removeClass('hover')
+    //     /* Stuff to do when the mouse leaves the element */
+    // });
 
     // var banner_n = 0;
     // banner
@@ -174,7 +193,7 @@ $(function() {
 
 
     // 
-    banner_2();
+    // banner_2();
 
     function banner_2() {
         var $item = $('#det_img_list>.det_img_item'),
