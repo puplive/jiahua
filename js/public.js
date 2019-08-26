@@ -42,6 +42,11 @@ $(function() {
         $(this).removeClass('on');
     });
 
+    // 弹框
+    $('.m-close').on('click', function(event) {
+        $('.s-mask').hide();
+    });
+    
 
     // // 回到顶部
     // $("#go_top").click(function() {
