@@ -80,7 +80,7 @@
         </div>
 
         <div class="con">
-            <ul class="s-list_1">
+            <ul class="s-list_1 j-list">
                 <li>
                     <div class="s-bg_img" style="background:#00C496 "></div>
                     <div class="s-item">
@@ -140,35 +140,37 @@
 
 
     <div class="s-mask">
-        <div class="m_con">
-            <div class="m-header">
-                <div class="b">呼吸系统精密检测</div>
-                <div class="a"><a class="m-close" href="javascript:;"></a></div>
-            </div>
-            <div class="m-con">
-                <ul class="s-list_16">
-                    <li>
-                        <div class="a"><img src="img/test.png" alt=""></div>
-                        <div class="b">
-                            <p>MAGNETOM Spectra 3.0T 磁共振</p>
-                            <span>对全身拍摄深层鲜明高清图像，拍摄范围大，拍摄间隔短，磁场对身体完全零辐射，其人性化的设计能进而提升筛查时的舒适感。</span>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="a"><img src="img/test.png" alt=""></div>
-                        <div class="b">
-                            <p>MAGNETOM Spectra 3.0T 磁共振</p>
-                            <span>对全身拍摄深层鲜明高清图像，拍摄范围大，拍摄间隔短，磁场对身体完全零辐射，其人性化的设计能进而提升筛查时的舒适感。</span>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="a"><img src="img/test.png" alt=""></div>
-                        <div class="b">
-                            <p>MAGNETOM Spectra 3.0T 磁共振</p>
-                            <span>对全身拍摄深层鲜明高清图像，拍摄范围大，拍摄间隔短，磁场对身体完全零辐射，其人性化的设计能进而提升筛查时的舒适感。</span>
-                        </div>
-                    </li>
-                </ul>
+        <div class="s-mask_con">
+            <div class="m_con">
+                <div class="m-header">
+                    <div class="b">呼吸系统精密检测</div>
+                    <div class="a"><a class="m-close" href="javascript:;"></a></div>
+                </div>
+                <div class="m-con">
+                    <ul class="s-list_16">
+                        <li>
+                            <div class="a"><img src="img/test.png" alt=""></div>
+                            <div class="b">
+                                <p>MAGNETOM Spectra 3.0T 磁共振</p>
+                                <span>对全身拍摄深层鲜明高清图像，拍摄范围大，拍摄间隔短，磁场对身体完全零辐射，其人性化的设计能进而提升筛查时的舒适感。</span>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="a"><img src="img/test.png" alt=""></div>
+                            <div class="b">
+                                <p>MAGNETOM Spectra 3.0T 磁共振</p>
+                                <span>对全身拍摄深层鲜明高清图像，拍摄范围大，拍摄间隔短，磁场对身体完全零辐射，其人性化的设计能进而提升筛查时的舒适感。</span>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="a"><img src="img/test.png" alt=""></div>
+                            <div class="b">
+                                <p>MAGNETOM Spectra 3.0T 磁共振</p>
+                                <span>对全身拍摄深层鲜明高清图像，拍摄范围大，拍摄间隔短，磁场对身体完全零辐射，其人性化的设计能进而提升筛查时的舒适感。</span>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
             </div>
         </div>
     </div>
@@ -177,6 +179,11 @@
 	
     <script src="js/jquery-3.3.1.min.js"></script>
     <script src="js/public.js"></script>
+    <script>
+        $('.j-list').on('click', 'li', function(event) {
+            $('.s-mask').show();
+        });
+    </script>
 </body>
 
 </html>

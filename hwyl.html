@@ -88,8 +88,8 @@
             </div>
         </div>
 
-        <div class="con">
-            <ul class="s-list_9">
+        <div class="con clearfix">
+            <ul class="s-list_9 clearfix j-list">
                 <li>
                     <div class="s-label"><span>A</span></div>
                     <div class="s-msg">
@@ -166,7 +166,7 @@
         <div class="con s-div_10">
             欲咨询或预约，请拨打迦华国际医疗客服热线 400 090 1000
         </div>
-            <!-- 弹层 -->
+        <!-- 弹层 -->
 
         <div class="footer">    
             <div class="con s-footer_box">
@@ -195,16 +195,18 @@
     </div>
 
     <div class="s-mask">
-        <div class="m_con">
-            <div class="m-header">
-                <div class="b">呼吸系统精密检测</div>
-                <div class="a">
-                    <p class="m-rmb"><span>14,000</span>RMB</p>
-                    <a class="m-close" href="javascript:;"></a>
+        <div class="s-mask_con">
+            <div class="m_con">
+                <div class="m-header">
+                    <div class="b">呼吸系统精密检测</div>
+                    <div class="a">
+                        <p class="m-rmb"><span>14,000</span>RMB</p>
+                        <a class="m-close" href="javascript:;"></a>
+                    </div>
                 </div>
-            </div>
-            <div class="m-con">
-                <img class="m-img" src="img/test.png" alt="">
+                <div class="m-con">
+                    <img class="m-img" src="img/test.png" alt="">
+                </div>
             </div>
         </div>
     </div>
@@ -212,6 +214,11 @@
 	
     <script src="js/jquery-3.3.1.min.js"></script>
     <script src="js/public.js"></script>
+    <script>
+        $('.j-list').on('click', 'li', function(event) {
+            $('.s-mask').show();
+        });
+    </script>
 </body>
 
 </html>
