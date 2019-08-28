@@ -2,7 +2,9 @@ html,body{
     height: 100%;
     margin: auto;
 }
-
+*{
+    font-family: Alibaba-PuHuiTi-Regular,Gotham-Light,Axisstd-regular;
+}
 .main {
     position: relative;
     overflow: hidden;
@@ -22,7 +24,11 @@ html,body{
     padding-top: 16px;
     padding-bottom: 16px;
 }
-
+.header.con{
+    width: 100%;
+    padding-right: 24px;
+    padding-left: 24px;
+}
 .con {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
@@ -58,7 +64,7 @@ html,body{
 .s-footer_box .b a{
     display: block;
     
-    font-family: Alibaba-PuHuiTi-R;
+    font-family: Alibaba-PuHuiTi-Regular,Gotham-Light,Axisstd-regular;
     font-size: 14px;
     color: #999999;
     letter-spacing: 0;
@@ -109,7 +115,7 @@ html,body{
 }
 
 .footer .d{
-    font-family: Alibaba-PuHuiTi-R;
+    font-family: Alibaba-PuHuiTi-Regular,Gotham-Light,Axisstd-regular;
     font-size: 12px;
     color: #999999;
     letter-spacing: 0;
@@ -166,6 +172,7 @@ html,body{
 .hander_con {
     /*padding-top: 30px;
     padding-bottom: */
+
 }
 
 .header_box {
@@ -245,7 +252,7 @@ html,body{
     float: left;
     width: 36px;
     height: 16px;
-    font-family: Gotham-Light;
+    font-family: Gotham-Medium;
     font-size: 12px;
     color: #666666;
     letter-spacing: 0;
@@ -389,7 +396,7 @@ html,body{
     width: 72px;
     height: 30px;
     line-height: 30px;
-    font-family: Alibaba-PuHuiTi-R;
+    font-family: Alibaba-PuHuiTi-Regular,Gotham-Light,Axisstd-regular;
     font-size: 18px;
     color: #00C496;
     letter-spacing: 0;
@@ -470,6 +477,7 @@ html,body{
     height: 48px;
     float: left;
 }
+
 .banner_nav_list .banner_nav_l{
     background: url(../img/icon-left.png) no-repeat center;
     background-size: 6.4px 11.2px;
@@ -478,9 +486,17 @@ html,body{
     background: url(../img/icon-right.png) no-repeat center;
     background-size: 6.4px 11.2px;
 }
+.banner_nav_list .banner_nav_l:hover {
+    background:#00C496 url(../img/icon-left-2.png) no-repeat center;
+    background-size: 6.4px 11.2px;
+}
+.banner_nav_list .banner_nav_r:hover {
+    background:#00C496 url(../img/icon-right-2.png) no-repeat center;
+    background-size: 6.4px 11.2px;
+}
 .banner_text{
     text-align: center;
-    font-family: Alibaba-PuHuiTi-B;
+    font-family: Alibaba-PuHuiTi-Bold,Gotham-Medium,Axisstd-bold;
     font-size: 14px;
     color: #FFFFFF;
     letter-spacing: 0;
@@ -607,7 +623,7 @@ html,body{
 .s-list_2 li .s-text{
     line-height: 240px;
     text-align: center;
-    font-family: Alibaba-PuHuiTi-B;
+    font-family: Alibaba-PuHuiTi-Bold,Gotham-Medium,Axisstd-bold;
     font-size: 18px;
     color: #FFFFFF;
     position: relative;
@@ -619,10 +635,11 @@ html,body{
 .s-title{
     padding-top: 140px;
     padding-bottom: 72px;
-    font-family: Alibaba-PuHuiTi-L;
+    font-family: Alibaba-PuHuiTi-Regular,Gotham-Light,Axisstd-regular;
     font-size: 72px;
     color: #00C496;
     letter-spacing: 0;
+    font-weight: 100;
 }
 .s-title2{
     font-size: 60px;
@@ -631,7 +648,7 @@ html,body{
     color: #00C496;
 }
 .s-title3{
-    font-family: Alibaba-PuHuiTi-B;
+    font-family: Alibaba-PuHuiTi-Bold,Gotham-Medium,Axisstd-bold;
     font-size: 24px;
     color: #666666;
     letter-spacing: 0;
@@ -680,7 +697,7 @@ html,body{
     margin-left: 36px;
     border-bottom: 1px solid #999;
 
-    font-family: Alibaba-PuHuiTi-R;
+    font-family: Alibaba-PuHuiTi-Regular,Gotham-Light,Axisstd-regular;
     font-size: 16px;
     color: #666666;
     letter-spacing: 0;
@@ -698,7 +715,7 @@ html,body{
 .s-list_4>li{
     float: left;
     width: 376px;
-    font-family: Alibaba-PuHuiTi-R;
+    font-family: Alibaba-PuHuiTi-Regular,Gotham-Light,Axisstd-regular;
     color: #00C496;
     letter-spacing: 0;
     margin-left: 36px;
@@ -745,7 +762,7 @@ html,body{
     box-sizing: border-box;
 }
 .s-list_5 li .s-text>h3{
-    font-family: Alibaba-PuHuiTi-B;
+    font-family: Alibaba-PuHuiTi-Bold,Gotham-Medium,Axisstd-bold;
     font-size: 18px;
     color: #FFFFFF;
     letter-spacing: 0;
@@ -753,7 +770,7 @@ html,body{
     line-height: 18px;
 }
 .s-list_5 li .s-text>p{
-    font-family: Alibaba-PuHuiTi-R;
+    font-family: Alibaba-PuHuiTi-Regular,Gotham-Light,Axisstd-regular;
     font-size: 14px;
     color: #FFFFFF;
     letter-spacing: 0;
@@ -778,7 +795,7 @@ html,body{
     margin-left: 36px;
     overflow: hidden;
 
-    font-family: Alibaba-PuHuiTi-R;
+    font-family: Alibaba-PuHuiTi-Regular,Gotham-Light,Axisstd-regular;
     font-size: 14px;
     color: #FFFFFF;
     letter-spacing: 0;
@@ -805,7 +822,7 @@ html,body{
     margin-left: 36px;
     overflow: hidden;
 
-    font-family: Alibaba-PuHuiTi-R;
+    font-family: Alibaba-PuHuiTi-Regular,Gotham-Light,Axisstd-regular;
     font-size: 14px;
     color: #666666;
     letter-spacing: 0;
@@ -826,7 +843,7 @@ html,body{
     margin-left: 36px;
     overflow: hidden;
 
-    font-family: Alibaba-PuHuiTi-R;
+    font-family: Alibaba-PuHuiTi-Regular,Gotham-Light,Axisstd-regular;
     font-size: 14px;
     color: #FFFFFF;
     letter-spacing: 0;
@@ -835,7 +852,7 @@ html,body{
 
 }
 .s-list_8>li p{
-    font-family: Alibaba-PuHuiTi-B;
+    font-family: Alibaba-PuHuiTi-Bold,Gotham-Medium,Axisstd-bold;
     font-size: 18px;
     color: #FFFFFF;
     letter-spacing: 0;
@@ -861,7 +878,7 @@ html,body{
     margin-top: 36px;
     /*overflow: hidden;*/
 
-    font-family: Alibaba-PuHuiTi-R;
+    font-family: Alibaba-PuHuiTi-Regular,Gotham-Light,Axisstd-regular;
     font-size: 14px;
     letter-spacing: 0;
     text-align: justify;
@@ -872,7 +889,7 @@ html,body{
 }
 
 .s-list_9>li p{
-    font-family: Alibaba-PuHuiTi-B;
+    font-family: Alibaba-PuHuiTi-Bold,Gotham-Medium,Axisstd-bold;
     font-size: 18px;
     letter-spacing: 0;
     text-align: justify;
@@ -931,7 +948,7 @@ html,body{
     transform: translate(24px,-12px)
 }
 .s-list_9>li .s-msg p{
-    font-family: Alibaba-PuHuiTi-B;
+    font-family: Alibaba-PuHuiTi-Bold,Gotham-Medium,Axisstd-bold;
     font-size: 18px;
     color: #00C496;
     letter-spacing: 0;
@@ -941,7 +958,7 @@ html,body{
     margin-bottom: 20px
 }
 .s-list_9>li .s-msg span{
-    font-family: Alibaba-PuHuiTi-R;
+    font-family: Alibaba-PuHuiTi-Regular,Gotham-Light,Axisstd-regular;
     font-size: 14px;
     color: #00C496;
     letter-spacing: 0;
@@ -954,7 +971,7 @@ html,body{
     height: 216px;
     margin-left: 36px;
     background: #00C496;
-    font-family: Alibaba-PuHuiTi-R;
+    font-family: Alibaba-PuHuiTi-Regular,Gotham-Light,Axisstd-regular;
     font-size: 14px;
     color: #FFFFFF;
     letter-spacing: 0;
@@ -969,7 +986,7 @@ html,body{
 .s-div_10{
     border-top: 1px solid #E0E0E0;
     border-bottom: 1px solid #E0E0E0;
-    font-family: Alibaba-PuHuiTi-R;
+    font-family: Alibaba-PuHuiTi-Regular,Gotham-Light,Axisstd-regular;
     font-size: 16px;
     color: #999999;
     letter-spacing: 0;
@@ -1003,7 +1020,7 @@ html,body{
 }
 .s-div_11 .s-box_r .a{
     padding: 47px 26px 0;
-    font-family: Alibaba-PuHuiTi-B;
+    font-family: Alibaba-PuHuiTi-Bold,Gotham-Medium,Axisstd-bold;
     font-size: 24px;
     color: #FFFFFF;
     letter-spacing: 0;
@@ -1014,7 +1031,7 @@ html,body{
     padding: 47px 26px
 }
 .s-div_11 .s-box_r .b p{
-    font-family: Alibaba-PuHuiTi-R;
+    font-family: Alibaba-PuHuiTi-Regular,Gotham-Light,Axisstd-regular;
     font-size: 16px;
     color: #FFFFFF;
     letter-spacing: 0;
@@ -1034,7 +1051,7 @@ html,body{
     flex: 1;
     margin-left: 26px;
     margin-right: 26px;
-    font-family: Alibaba-PuHuiTi-R;
+    font-family: Alibaba-PuHuiTi-Regular,Gotham-Light,Axisstd-regular;
     font-size: 16px;
     color: #FFFFFF;
     letter-spacing: 0;
@@ -1090,7 +1107,7 @@ html,body{
     margin-bottom: 20px;
 }
 .s-list_12 li .a p{
-    font-family: Alibaba-PuHuiTi-B;
+    font-family: Alibaba-PuHuiTi-Bold,Gotham-Medium,Axisstd-bold;
     font-size: 18px;
     color: #666666;
     letter-spacing: 0;
@@ -1098,7 +1115,7 @@ html,body{
     line-height: 20px;
 }
 .s-list_12 li .a span{
-    font-family: Alibaba-PuHuiTi-B;
+    font-family: Alibaba-PuHuiTi-Bold,Gotham-Medium,Axisstd-bold;
     font-size: 15px;
     color: #666666;
     letter-spacing: 0;
@@ -1106,7 +1123,7 @@ html,body{
     line-height: 18px;
 }
 .s-list_12 li .b{
-    font-family: Alibaba-PuHuiTi-R;
+    font-family: Alibaba-PuHuiTi-Regular,Gotham-Light,Axisstd-regular;
     font-size: 14px;
     color: #666666;
     letter-spacing: 0;
@@ -1152,7 +1169,7 @@ html,body{
     border-radius: 6px;
 }
 .s-list_13 li p{
-    font-family: Alibaba-PuHuiTi-B;
+    font-family: Alibaba-PuHuiTi-Bold,Gotham-Medium,Axisstd-bold;
     font-size: 18px;
     color: #666666;
     letter-spacing: 0;
@@ -1161,14 +1178,14 @@ html,body{
     padding-bottom: 13px;
 }
 .s-list_13 li div{
-    font-family: Alibaba-PuHuiTi-R;
+    font-family: Alibaba-PuHuiTi-Regular,Gotham-Light,Axisstd-regular;
     font-size: 12px;
     color: #999999;
     letter-spacing: 0;
     line-height: 14px;
 }
 .s-list_13 li div span{
-    font-family: Alibaba-PuHuiTi-R;
+    font-family: Alibaba-PuHuiTi-Regular,Gotham-Light,Axisstd-regular;
     font-size: 12px;
     color: #FFFFFF;
     letter-spacing: 0;
@@ -1204,7 +1221,7 @@ html,body{
     float: left;
 }
 .s-list_14 li .a p{
-    font-family: Alibaba-PuHuiTi-B;
+    font-family: Alibaba-PuHuiTi-Bold,Gotham-Medium,Axisstd-bold;
     font-size: 18px;
     color: #666666;
     letter-spacing: 0;
@@ -1212,14 +1229,14 @@ html,body{
     margin-bottom: 13px;
 }
 .s-list_14 li .a div{
-    font-family: Alibaba-PuHuiTi-R;
+    font-family: Alibaba-PuHuiTi-Regular,Gotham-Light,Axisstd-regular;
     font-size: 12px;
     color: #999999;
     letter-spacing: 0;
     line-height: 14px;
 }
 .s-list_14 li .a div span{
-    font-family: Alibaba-PuHuiTi-R;
+    font-family: Alibaba-PuHuiTi-Regular,Gotham-Light,Axisstd-regular;
     font-size: 12px;
     color: #FFFFFF;
     letter-spacing: 0;
@@ -1258,7 +1275,7 @@ html,body{
     margin-left: 36px;
 }
 .s-list_15 li div{
-    font-family: Alibaba-PuHuiTi-B;
+    font-family: Alibaba-PuHuiTi-Bold,Gotham-Medium,Axisstd-bold;
     font-size: 24px;
     color: #666666;
     letter-spacing: 0;
@@ -1267,7 +1284,7 @@ html,body{
     margin-bottom: 22px;
 }
 .s-list_15 li p{
-    font-family: Alibaba-PuHuiTi-R;
+    font-family: Alibaba-PuHuiTi-Regular,Gotham-Light,Axisstd-regular;
     font-size: 14px;
     color: #666666;
     letter-spacing: 0;
@@ -1581,7 +1598,7 @@ pre {
 .m-header .b{
     flex:1;
     align-items: center;
-    font-family: Alibaba-PuHuiTi-B;
+    font-family: Alibaba-PuHuiTi-Bold,Gotham-Medium,Axisstd-bold;
     font-size: 36px;
     color: #FFFFFF;
     letter-spacing: 0;
@@ -1592,7 +1609,7 @@ pre {
     flex: 1
 }
 .m-header .c p{
-    font-family: Alibaba-PuHuiTi-B;
+    font-family: Alibaba-PuHuiTi-Bold,Gotham-Medium,Axisstd-bold;
     font-size: 36px;
     color: #00C496;
     letter-spacing: 0;
@@ -1600,7 +1617,7 @@ pre {
     margin-bottom: 14px;
 }
 .m-header .c .s1{
-    font-family: Alibaba-PuHuiTi-R;
+    font-family: Alibaba-PuHuiTi-Regular,Gotham-Light,Axisstd-regular;
     font-size: 14px;
     color: #FFFFFF;
     letter-spacing: 0;
@@ -1612,7 +1629,7 @@ pre {
     margin-right: 8px;
 }
 .m-header .c .s2{
-    font-family: Alibaba-PuHuiTi-R;
+    font-family: Alibaba-PuHuiTi-Regular,Gotham-Light,Axisstd-regular;
     font-size: 14px;
     color: #999999;
     letter-spacing: 0;
@@ -1626,6 +1643,10 @@ pre {
     background: url(../img/icon-close.png);
     background-size: cover;
 }
+.m_con2 .m-close{
+    background: url(../img/icon-close-2.png);
+    background-size: cover;
+}
 .m-rmb{
     margin-right: 30px;
     color: #fff;
@@ -1633,7 +1654,7 @@ pre {
     align-items: top
 }
 .m-rmb span{
-    font-family: Gotham-Light;
+    font-family: Gotham-Medium;
     font-size: 36px;
     color: #FFFFFF;
     letter-spacing: 0;
@@ -1667,7 +1688,7 @@ pre {
     margin-bottom: 36px;
 }
 .m-details p{
-    font-family: Alibaba-PuHuiTi-R;
+    font-family: Alibaba-PuHuiTi-Regular,Gotham-Light,Axisstd-regular;
     font-size: 14px;
     color: #666666;
     letter-spacing: 0;
@@ -1706,7 +1727,7 @@ pre {
     width: 580px;
 }
 .s-list_16 li .b p{
-    font-family: Alibaba-PuHuiTi-B;
+    font-family: Alibaba-PuHuiTi-Bold,Gotham-Medium,Axisstd-bold;
     font-size: 24px;
     color: #666666;
     letter-spacing: 0;
@@ -1715,7 +1736,7 @@ pre {
     margin-bottom: 24px;
 }
 .s-list_16 li .b span{
-    font-family: Alibaba-PuHuiTi-R;
+    font-family: Alibaba-PuHuiTi-Regular,Gotham-Light,Axisstd-regular;
     font-size: 14px;
     color: #666666;
     letter-spacing: 0;
