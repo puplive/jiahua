@@ -24,9 +24,15 @@ $(function() {
     $('#nav_box>.nav>li').hover(function() {
         $('.s-popup').addClass('show');
         $('#header.j-header_2').removeClass('header-2')
+        $('.logo1').hide();
+        $('.logo2').show();
+        $('#header').addClass('j-hover')
     }, function() {
         $('.s-popup').removeClass('show')
         $('#header.j-header_2').addClass('header-2')
+        $('.logo2').hide();
+        $('.logo1').show();
+        $('#header').removeClass('j-hover')
     });
 
     // 下拉 框
