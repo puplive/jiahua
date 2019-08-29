@@ -36,7 +36,7 @@ $(function() {
             $('.logo2').show();
         }else{
             $('.logo2').hide();
-            $('.logo1').hide();
+            $('.logo1').show();
         }
         $('.xuanqu').hide()
         
