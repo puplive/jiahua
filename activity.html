@@ -104,24 +104,30 @@
             </ul>
         </div>
 
-        <div class="con">
-            <div class="s-title4">
+        <div class="b-b-2">
+            <div class="con s-title4">
                 <a href="">活动</a>
                 <a href="">咨询</a>
             </div>
-            <ul class="s-list_14 j-activity_list">
+        </div>
+        <div class="">
+            <ul class="s-list_14 j-activity_list-2">
                 <li>
-                    <div class="img-box s-scale"><img class="s-scale_img" src="img/test.png" alt=""></div>
-                    <div class="a">
-                        <p>迦华国际医疗外科机器人手术系统革命性迭代</p>
-                        <div><span>活动</span> 2019年7月28日 10:25</div>
+                    <div class="con">
+                        <div class="img-box s-scale"><img class="s-scale_img" src="img/test.png" alt=""></div>
+                        <div class="a">
+                            <p>迦华国际医疗外科机器人手术系统革命性迭代</p>
+                            <div><span>活动</span> 2019年7月28日 10:25</div>
+                        </div>
                     </div>
                 </li>
                 <li>
-                    <div class="img-box s-scale"><img class="s-scale_img" src="img/test.png" alt=""></div>
-                    <div class="a">
-                        <p>迦华国际医疗外科机器人手术系统革命性迭代</p>
-                        <div><span>活动</span> 2019年7月28日 10:25</div>
+                    <div class="con">
+                        <div class="img-box s-scale"><img class="s-scale_img" src="img/test.png" alt=""></div>
+                        <div class="a">
+                            <p>迦华国际医疗外科机器人手术系统革命性迭代</p>
+                            <div><span>活动</span> 2019年7月28日 10:25</div>
+                        </div>
                     </div>
                 </li>
                 <li>
@@ -191,6 +197,14 @@
     <script>
         $('.j-activity_list').on('click', 'li', function(event) {
             $('.s-mask').show();
+        });
+        $('.j-activity_list-2').on('click', '.a,.img-box', function(event) {
+            $('.s-mask').show();
+        });
+        $('.s-list_14 .con').hover(function() {
+            $(this).parent('li').addClass('s-hover')
+        }, function() {
+            $(this).parent('li').removeClass('s-hover')
         });
     </script>
 </body>

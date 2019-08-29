@@ -6,3 +6,21 @@
     font-family: 'Axisstd-regular';
     src: url('../fonts/Axisstd-regular.otf');
 }
+
+@font-face {
+    font-family: 'Gotham-Light-x';
+    src: url('../fonts/Gotham-Light.otf');
+}
+@font-face {
+    font-family: 'Gotham-Medium-x';
+    src: url('../fonts/Gotham-Medium.otf');
+}
+
+@font-face {
+    font-family: 'Axisstd-bold-x';
+    src: url('../fonts/Axisstd-bold.otf');
+}
+@font-face {
+    font-family: 'Axisstd-regular-x';
+    src: url('../fonts/Axisstd-regular.otf');
+}

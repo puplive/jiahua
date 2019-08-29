@@ -21,17 +21,25 @@ $(function() {
     });
 
     // 导航 遮罩
-    $('#nav_box>.nav>li').hover(function() {
+    $('#nav_box').hover(function() {
         $('.s-popup').addClass('show');
         $('#header.j-header_2').removeClass('header-2')
         $('.logo1').hide();
         $('.logo2').show();
         $('#header').addClass('j-hover')
+        $('.xuanqu').show()
     }, function() {
         $('.s-popup').removeClass('show')
         $('#header.j-header_2').addClass('header-2')
-        $('.logo2').hide();
-        $('.logo1').show();
+        if($('#header').hasClass('header-3')){
+            $('.logo1').hide();
+            $('.logo2').show();
+        }else{
+            $('.logo2').hide();
+            $('.logo1').hide();
+        }
+        $('.xuanqu').hide()
+        
         $('#header').removeClass('j-hover')
     });
 

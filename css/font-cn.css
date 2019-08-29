@@ -1,10 +1,13 @@
+
+/*中文*/
+
 @font-face {
-    font-family: 'Gotham-Light';
-    src: url('../fonts/Gotham-Light.otf');
+    font-family: 'Alibaba-PuHuiTi-Bold';
+    src: url('../fonts/Alibaba-PuHuiTi-Bold.ttf');
 }
 @font-face {
-    font-family: 'Gotham-Medium';
-    src: url('../fonts/Gotham-Medium.otf');
+    font-family: 'Alibaba-PuHuiTi-Regular';
+    src: url('../fonts/Alibaba-PuHuiTi-Regular.ttf');
 }
 
 @font-face {

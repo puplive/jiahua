@@ -1,12 +1,27 @@
 
 /*// 等于或大于 34*16 = 544px（手机横屏）*/
 @media (max-width: 544px) {
+    .about-main:before{
+        height: 70px;
+    }
+    .about-main:after{
+        background: url(../img/bg.png) no-repeat top right;
+        -moz-background-size: 100% auto;
+             background-size: 100% auto;
+    }
+    .s-map .a a{
+        top: 72px;
+        left: 113px;
+    }
     .m_con{
         width: 90%;
     }
     .m-header{
         padding: 15px;
-        align-items: start
+        -webkit-box-align: start;
+           -moz-box-align: start;
+            -ms-flex-align: start;
+                align-items: start
     }
     .m-details{
         padding: 15px
@@ -14,6 +29,7 @@
     .logo img{
         height: auto;
         width: 280px;
+        margin-top: 14px;
     }
     .nav_tab_btn{
         display: block;
@@ -94,7 +110,15 @@
     .toggle.header-2 .nav>li:hover>a {
         border-bottom: none;
     }
-
+    .nav_tab_btn>i{
+        margin-top: 9px;
+    }
+    .header-3 .nav_tab_btn>i{
+        border-color: #fff;
+    }
+    .header-3 .nav_tab_btn>i:after{
+        background: #fff
+    }
     .main{
         width: 100%;
         min-width: 100%;
@@ -114,14 +138,22 @@
         padding-right: 10px;
     }
     .s-footer_box{
-        flex-direction: column
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+           -moz-box-orient: vertical;
+           -moz-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column
     }
     .s-footer_box .a{
         margin-bottom: 40px;
     }
     .s-footer_box .b{
         margin: 0 0 20px;
-        flex: 1;
+        -webkit-box-flex: 1;
+           -moz-box-flex: 1;
+            -ms-flex: 1;
+                flex: 1;
     }
 
     .s-title {
@@ -319,7 +351,12 @@
     }
 
     .s-list_14 li{
-        flex-direction: column;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+           -moz-box-orient: vertical;
+           -moz-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
     }
 
     .s-list_14 li .img-box {
